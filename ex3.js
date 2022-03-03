@@ -14,14 +14,15 @@
  * El array tiene 4 elementos. Para acceder a "Dory" debo poner muchos_peces[0]. Para acceder a "Estrella" debo poner muchos_peces[3]. 
  */
 
- /**
-  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
-  */
+/**
+ * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+ */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
-for(let i=0; i<=muchos_peces.length; i++) {
-    let siguiente_pez = muchos_peces[i]
-    console.log("Pez siguiente: " + siguiente_pez)
+for (let i = 0; i <= muchos_peces.length; i++) {
+  let siguiente_pez = muchos_peces[i]
+  console.log("Pez siguiente: " + siguiente_pez)
 }
 
+// Se está yengo hasta muchos_peces[muchos_peces.length], posicion que no existe
