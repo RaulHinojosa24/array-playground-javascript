@@ -25,4 +25,4 @@ for (let i = 0; i <= muchos_peces.length; i++) {
   console.log("Pez siguiente: " + siguiente_pez)
 }
 
-// Se está yengo hasta muchos_peces[muchos_peces.length], posicion que no existe
+// Se está yendo hasta muchos_peces[muchos_peces.length], posicion que no existe
